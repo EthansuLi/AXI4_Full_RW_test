@@ -2,8 +2,8 @@
 module name : top_dma
 author		: Yuzhe Li
 affiliation	: 
-FPGA		: Xilinx A7_100-T
-DATE		: Jul 7,2024
+
+DATE		: Jul 7,2022
 
 modify		: SIM / VERDI
 \*************************************************************************/
@@ -247,4 +247,5 @@ blk_mem_gen_0 u_bram (
   .s_axi_rready 		(m_axi_rready 	)    // input wire s_axi_rready
 );
 `endif
+
 endmodule
