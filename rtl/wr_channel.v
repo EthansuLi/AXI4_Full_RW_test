@@ -1,9 +1,7 @@
 /**************************************************************************\ 
 module name : ADMA : wr_channel
-author		: Yuzhe Li ||  liyuzhe5
-affiliation	: SEU -ESE --display && visualization lab || 
-			  Hikvision, Research Institute, circuit department 
-FPGA		: Xilinx A7_100-T
+author		: Yuzhe Li 
+
 DATE		: Jul 7,2024
 
 modify		:
@@ -181,5 +179,6 @@ wr_master #(
     .m_axi_bvalid      (m_axi_bvalid ),
     .m_axi_bready      (m_axi_bready )
     );
+
 
 endmodule
