@@ -1,9 +1,8 @@
 /**************************************************************************\ 
 module name : ADMA : wr_buffer
-author		: Yuzhe Li ||  liyuzhe5
-affiliation	: SEU -ESE 
-			  Hikvision
-FPGA		: Xilinx A7_100-T
+author		: Yuzhe Li ||  
+affiliation	: 
+
 DATE		: Jul 7,2024
 
 modify		:
@@ -383,4 +382,5 @@ module wr_buffer#(
 			err_wdata_fifo <= 1'b0;
 	end
 	endgenerate
+
 endmodule
