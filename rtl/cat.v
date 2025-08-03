@@ -1,11 +1,4 @@
-/**************************************************************************\ 
-module name : AMDA : cat
-author		: Yuzhe Li 
-FPGA		: Xilinx A7_100-T
-DATE		: DEC 9,2024
 
-modify		:
-\*************************************************************************/
 `timescale 1ns/1ps
 module cat#(
 	parameter AXI_ADDR_WIDTH = 32,
@@ -164,4 +157,5 @@ fifo_w65xd4096 cat_fifo (
   .empty 		(fifo_rempty		),            // output wire empty
   .data_count 	(fifo_data_count 	)  // output wire [12 : 0] data_count
 );
+
 endmodule
