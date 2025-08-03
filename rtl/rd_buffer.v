@@ -1,8 +1,7 @@
 /**************************************************************************\ 
 module name : ADMA : rd_buffer
 author		: Yuzhe Li
-affiliation	: SEU
-FPGA		: Xilinx A7_100-T
+
 DATE		: 11 ,2024
 
 modify		:
@@ -470,5 +469,6 @@ end
 		else
 			rd_data_fifo_err <= 1'b0;
 	end
+
 
 endmodule
