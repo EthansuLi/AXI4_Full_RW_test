@@ -1,8 +1,7 @@
 /**************************************************************************\ 
 module name : ADMA : rd_master
 author		: Yuzhe Li
-affiliation	: SEU
-FPGA		: Xilinx A7_100-T
+
 DATE		: 11,2024
 
 modify		:
@@ -148,4 +147,5 @@ always@(posedge aclk) begin
 end
 
 assign m_axi_rready = 1'b1 ;
+
 endmodule
