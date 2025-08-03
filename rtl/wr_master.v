@@ -1,9 +1,6 @@
 /**************************************************************************\ 
 module name : ADMA : wr_master
-author		: Yuzhe Li ||  liyuzhe5
-affiliation	: SEU -ESE --display && visualization lab || 
-			  Hikvision, Research Institute, circuit department 
-FPGA		: Xilinx A7_100-T
+author		: Yuzhe Li
 DATE		: Jul 7,2024
 
 modify		:
@@ -179,3 +176,4 @@ always @(posedge axi_clk) begin
 end
 assign m_axi_bready = 1'b1;
 endmodule
+
