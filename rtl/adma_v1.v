@@ -1,8 +1,8 @@
 /**************************************************************************\ 
-module name : ADMA TOP : adma_v1
+module name : ADMA TOP
 author		: Yuzhe Li
 affiliation	: 
-FPGA		: Xilinx A7_100-T
+
 DATE		: NOV 23,2024
 
 modify		:
@@ -192,4 +192,5 @@ wr_channel#(
 	.rd_cmd_fifo_err	(rcmd_fifo_err		),
 	.rd_data_fifo_err	(rdata_fifo_err		)
 );
+
 endmodule
