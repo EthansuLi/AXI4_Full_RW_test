@@ -1,9 +1,6 @@
 /**************************************************************************\ 
 module name : AMDA : wr_ctrl
-author		: Yuzhe Li ||  liyuzhe5
-affiliation	: SEU|| 
-			  Hikvision
-FPGA		: Xilinx A7_100-T
+author		: Yuzhe Li
 DATE		: AUG 4,2024
 
 modify		:
@@ -200,3 +197,4 @@ module wr_ctrl #(
 	// assign wr_req_en 	= wr_data_last;
 	// assign wr_burst_len = AXI_BURST_CNT - 1;
 endmodule
+
