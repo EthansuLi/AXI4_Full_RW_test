@@ -2,7 +2,7 @@
 module name : rd_channel
 author		: Yuzhe Li
 affiliation	: 
-FPGA		: Xilinx A7_100-T
+
 DATE		: Jul 7,2024
 
 modify		:
@@ -165,6 +165,7 @@ rd_ctrl#(
 	.m_axi_rresp			(m_axi_rresp			)
 							
 	);
+
 
 
 
